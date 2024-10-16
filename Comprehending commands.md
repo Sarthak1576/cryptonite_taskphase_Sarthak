@@ -44,6 +44,6 @@ used command `find / -name flag -type f` and obtained the path and read it with 
 
 Flag: pwn.college{0xhC84g0VcPvYAH6qhF30452zdl.dJzM4QDL2kzM2czW}
 ## linking files
+In this challenge, we need to create a symbolic link between the `/flag` file, which contains the flag, and the `/not-the-flag` file, which is executed by the given command. By using `ln -s` to create the symbolic link and then running the provided command, we can retrieve the flag.
 
-
-Flag: 
+Flag: pwn.college{IrIXnfnO_k6gxpeb04HBhIcxfHu.dlTM1UDL2kzM2czW}
