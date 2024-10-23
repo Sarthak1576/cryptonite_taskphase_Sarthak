@@ -11,3 +11,7 @@ Flag: pwn.college{4mSzFDtC4KWmlC5QxbmeL6V85jK.dZTN0UDL2kzM2czW}
 Used John the Ripper to crack the password hash `john /challenge/shadow-leak`. Once the password is cracked, use the `su` command to switch to the zardus user and enter the cracked password when prompted. Finally, run the following command to get the flag `/challenge/run`.
 
 Flag: pwn.college{wvddLXr6oZWqKl94Hhx_UbFSN7B.ddTN0UDL2kzM2czW}
+## Using sudo
+Given that we have `sudo` privileges, we can simply run `sudo cat /flag` to retrieve the flag directly.
+
+Flag: pwn.college{gvsSqG3FQEjXvEq18vpEsrqF1NV.dhTN0UDL2kzM2czW}
